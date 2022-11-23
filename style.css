@@ -427,3 +427,32 @@ body {
     margin-right: 1.6rem;
   }
 }
+
+@media (min-width: 91em) {
+  .wrapper {
+    max-width: 144rem;
+    margin: 0 auto;
+  }
+  
+  body {
+    background-image: none;
+  }
+
+  .content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-image: url(img/image-hero-desktop.png);
+    background-repeat: no-repeat;
+    background-position-y: -22rem;
+    background-position-x: calc(100% + 44rem);
+    background-size: 70%;
+  }
+
+  .header {
+    padding-right: 5rem;
+  }
+
+  .btn--outline-secondary {
+    margin-right: 5rem;
+  }
+}
